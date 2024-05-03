@@ -12,4 +12,4 @@ spec:
        - containerPort: 80
     - name: almalinux   #container -2
       image: almalinux:8
-      command: ["sleep", "300"]
+      command: ["sleep", "300"]  #it will run 300 seconds and exit automataically.
